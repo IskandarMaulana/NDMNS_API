@@ -455,3 +455,7 @@ USE [master]
 GO
 ALTER DATABASE [DB_NDMNS] SET  READ_WRITE 
 GO
+INSERT [dbo].[tbl_m_user] ([usr_id], [usr_name], [usr_code], [usr_nrp], [usr_password], [usr_role], [usr_email], [usr_whatsapp], [usr_whatsappclient], [usr_status], [usr_createdby], [usr_createddate], [usr_updatedby], [usr_updateddate]) VALUES (N'1aff27f9-5469-4bff-b00b-bf452c854793', N'Rehan M', N'RHN', N'1234567891', N'$2a$11$u2pr8u3s.NXHjYZxKtSwUOFsMCNGM19.kEaOVhN2BpkPNSuRGmJiG', N'Network Operation Center', N'rehan@gmail.com', N'6281351523928', 0, 2, N'5cd7da46-e259-4fcc-8a8d-16ad0049936b', CAST(N'2025-07-02T14:46:16.750' AS DateTime), N'5cd7da46-e259-4fcc-8a8d-16ad0049936b', CAST(N'2025-07-02T14:47:24.037' AS DateTime))
+GO
+INSERT [dbo].[tbl_m_user] ([usr_id], [usr_name], [usr_code], [usr_nrp], [usr_password], [usr_role], [usr_email], [usr_whatsapp], [usr_whatsappclient], [usr_status], [usr_createdby], [usr_createddate], [usr_updatedby], [usr_updateddate]) VALUES (N'5cd7da46-e259-4fcc-8a8d-16ad0049936b', N'Anjar Mulyana', N'AMY', N'1234567890', N'$2a$11$shOcH8.7l.O//QvjbggqLuBaCEnc0a/corps8EG9uYaWWUBY6af3y', N'Team Leader', N'zainal.arifin@pamapersada.com', N'628129992005', 0, 2, N'79befcee-97a7-46a4-8655-0c6f4369ff1d', CAST(N'2025-06-18T16:15:26.567' AS DateTime), NULL, NULL)
+GO
